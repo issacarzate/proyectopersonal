@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "111912089109",
+    "firebase_url": "https://locate-my-friends-cf39b.firebaseio.com",
+    "project_id": "locate-my-friends-cf39b",
+    "storage_bucket": "locate-my-friends-cf39b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111912089109:android:89d6f32f3a5dc80f",
+        "android_client_info": {
+          "package_name": "com.example.issac.lmf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111912089109-8822lr9193r59nqsmvnp4egqi1g41nf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlhXhypaJ_Tsm_YW1ThMWROJZ38TU8DC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
