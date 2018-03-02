@@ -130,7 +130,7 @@ public class AjustesActivity extends AppCompatActivity {
                             //Si la imagen se guarda exitosamente pedimos el la liga de la imagen
                             //para guardarla en el atributo imagenPerfil de cada usuario
 
-                            Toast.makeText(AjustesActivity.this, "Imágen actualizada exitosamente", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(AjustesActivity.this, "Imágen actualizada exitosamente ", Toast.LENGTH_SHORT).show();
                             final String downloadUrl = task.getResult().getDownloadUrl().toString();
 
                             UsersRef.child("imagenPerfil").setValue(downloadUrl).addOnCompleteListener(new OnCompleteListener<Void>() {
