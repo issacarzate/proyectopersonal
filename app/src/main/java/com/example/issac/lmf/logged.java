@@ -178,9 +178,11 @@ public class logged extends AppCompatActivity {
             case R.id.nav_settings:
                 Toast.makeText(this, "Ajustes", Toast.LENGTH_SHORT).show();
                 break;
+                /*
             case R.id.nav_post:
                 Toast.makeText(this, "Nuevo Post", Toast.LENGTH_SHORT).show();
                 break;
+                */
             case R.id.nav_Logout:
                 mAuth.signOut();
                 SendUserToLoginActivity();

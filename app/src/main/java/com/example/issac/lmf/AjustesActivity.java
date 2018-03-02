@@ -185,10 +185,10 @@ public class AjustesActivity extends AppCompatActivity {
             userMap.put("username", username);
             userMap.put("fullname", fullname);
             userMap.put("country", countryname);
-            userMap.put("status", "Lalaland");
+            userMap.put("Lat", "Secret");
+            userMap.put("Lng", "Secreto");
             userMap.put("gender", "No lo se");
             userMap.put("birth", "Nunca");
-            userMap.put("relation", "Secreto");
             UsersRef.updateChildren(userMap).addOnCompleteListener(new OnCompleteListener() {
                 @Override
                 public void onComplete(@NonNull Task task) {
